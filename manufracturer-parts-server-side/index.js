@@ -117,7 +117,7 @@ async function run() {
       res.send(tool);
     });
 
-    // bookingCollection
+    // bookingCollection system
     app.post("/booking", async (req, res) => {
       const booking = req.body;
       const result = bookingCollection.insertOne(booking);
