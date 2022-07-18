@@ -1,7 +1,7 @@
 {
   "name": "refrigerator-parts-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "click here: https://assignment-12-156a9.web.app/",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -18,5 +18,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.6.0",
     "stripe": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }

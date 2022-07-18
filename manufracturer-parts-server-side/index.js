@@ -324,5 +324,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Welcome to our refrigerator parts menufracturer. ${port}`);
+  console.log(`Welcome to our main refrigerator parts menufracturer. ${port}`);
 });
