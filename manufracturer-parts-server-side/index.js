@@ -171,7 +171,7 @@ async function run() {
       res.send({ result, token });
     });
 
-    // admin nh tader access korte dibo nh
+    // admin nh tader access korte dibo nh nh
     app.get("/admins/:email", verifyJWTToken, async (req, res) => {
       const email = req.params.email;
       const user = await userCollection.findOne({ email: email });
